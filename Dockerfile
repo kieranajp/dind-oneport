@@ -1,4 +1,4 @@
-FROM docker:18.09-dind as upstream
+FROM docker:19.03-dind as upstream
 
 # copy everything to a clean image, so we can change the exposed ports
 FROM scratch
